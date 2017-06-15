@@ -1,0 +1,14 @@
+.loading {
+  border-radius: 200px;
+  border: 4px white solid;
+  border-top: 4px #40adff solid;
+  height: 50px;
+  width: 50px;
+  animation: spinner 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spinner {
+  from   { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
