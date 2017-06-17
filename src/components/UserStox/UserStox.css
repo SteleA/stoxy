@@ -1,0 +1,44 @@
+.user-stox {
+  height: 100px;
+  width: calc(100% / 6 - 1px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.remove, .settings {
+  position: absolute;
+  top: 10px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.remove {
+  left: 10px;
+}
+
+.settings {
+  right: 10px;
+}
+
+.sell-price, .buy-price {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+}
+.buy-price {
+  left: 0;
+}
+.sell-price {
+  right: 0;
+}
+.buy-price input, .sell-price input {
+  padding: 0;
+  width: calc(100% - 1px);
+  border: 0px solid #eee;
+  font-size: 12px;
+  text-align: center;
+}
